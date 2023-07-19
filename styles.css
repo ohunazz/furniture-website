@@ -80,7 +80,7 @@ a {
 
 .hero-section {
     position: relative;
-    background-color: #fae2da;
+    background-color: rgb(250, 226, 218, 0.7);
     height: 676px;
     margin-bottom: 107px;
     border-radius: 30px;
@@ -154,100 +154,86 @@ span {
 /* Features-Section */
 
 .features-section_container {
-    width: 1296px;
+    max-width: 1600px;
     margin: 0 auto;
-    padding: 0 152px;
-    position: relative;
-    background-color: antiquewhite;
-    margin-bottom: 120px;
-}
-.feature-section {
-    display: inline-block;
-    position: relative;
-}
-.feature-section p {
-    font-size: 15px;
-    line-height: 28px;
-    font-weight: 400s;
 }
 
-.feature-section h2 {
-    margin-bottom: 15px;
+.features-section {
+    padding: 100px 152px 80px;
+    border-bottom-style: dotted;
+    border-color: var(--grey-color-100);
+    /* background-color: yellow; */
+}
+
+.features-section h4 {
+    color: var(--text-color, #1d263a);
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 32px; /* 133.333% */
     letter-spacing: -0.3px;
 }
 
-.icon-1 {
-    display: inline-block;
-    width: 33.3%;
-    position: relative;
+.features-section p {
+    color: var(--text-color, #1d263a);
+    opacity: 0.800000011920929;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
 }
 
-.icon-3 {
-    display: inline-block;
-    width: 33.3%;
-    position: relative;
+.features-section .feature:not(:last-child) {
+    margin-right: 50px;
 }
 
-.icon-1,
-.icon-2,
-.icon-3 {
-    margin-top: 6px;
-    margin-right: 37px;
+.feature {
+    width: calc((100% - 120px) / 3);
     display: inline-block;
-    position: relative;
-}
-.icon-1 {
-    display: inline-block;
-    width: 33.3%;
-    position: relative;
-    margin-left: 0;
+    vertical-align: top;
 }
 
-.icon-2 {
+.feature-icon,
+.feature-text {
     display: inline-block;
-    width: 33.3%;
-    position: relative;
+    vertical-align: top;
 }
 
-.icon-3 {
-    display: inline-block;
-    width: 33.3%;
-    position: relative;
+.feature-icon {
+    margin-right: 36px;
 }
 
-.heart,
-.zap,
-.headphone {
+.ellipse {
+    position: relative;
+    border-radius: 50%;
     height: 80px;
     width: 80px;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
 }
 
-.icon {
-    position: relative;
+.ellipse.shape-1 {
+    background-color: var(--color-8, #d6ebe4);
+    opacity: 0.4000000059604645;
+}
+
+.ellipse.shape-2 {
+    background-color: var(--color-9, #fae2da);
+    opacity: 0.4000000059604645;
+}
+
+.ellipse.shape-3 {
+    background-color: var(--color-5, #ebf5ff);
+}
+
+.ellipse .icon {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.heart {
-    background-color: #d6ebe4;
+.heading-6 {
+    margin-bottom: 10px;
 }
-
-.zap {
-    background-color: #fae2da;
-}
-
-.headphone {
-    background-color: #ebf5ff;
-}
-
 /* Product-Section */
 
 .product-section_container {
@@ -256,13 +242,13 @@ span {
 }
 
 .product-section {
-    padding: 0 152px;
+    padding: 102px 152px;
     position: relative;
 }
 
 .sign {
     position: absolute;
-    top: 15px;
+    top: 110px;
     right: 152px;
     margin-bottom: 40px;
 }
@@ -296,8 +282,8 @@ span {
 
 .price {
     position: absolute;
-    bottom: 120px;
-    right: 190px;
+    bottom: 230px;
+    right: 220px;
     width: 336px;
     height: 115px;
     padding: 20px;
@@ -337,9 +323,9 @@ span {
 }
 
 .process-section {
-    padding: 0 152px;
+    padding: 102px 152px;
     position: relative;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 .process-section h3 {
@@ -417,10 +403,10 @@ span {
 }
 
 .explore-section {
-    padding: 0 152px;
+    padding: 102px 152px;
     position: relative;
-    margin-bottom: 115px;
-    margin-top: 166px;
+    /* margin-bottom: 115px;
+    margin-top: 166px; */
 }
 
 .couple {
@@ -437,7 +423,7 @@ span {
     fill: var(--color-7, #20bfa9);
     opacity: 0.8999999761581421;
     position: absolute;
-    bottom: -30px;
+    bottom: 70px;
     left: 380px;
 }
 .explore-section_left {
@@ -488,6 +474,7 @@ span {
 .review-section {
     position: relative;
     margin-bottom: 115px;
+    margin-top: 95px;
 }
 
 .review-section_left {
@@ -646,15 +633,13 @@ span {
 }
 
 .footer-section {
-    width: 1478px;
-    margin-left: 61px;
-    margin-right: 61px;
-    margin-bottom: 63px;
-    padding-top: 135px;
+    width: 1600px;
+    padding: 102px 61px 63px;
     display: inline-block;
     vertical-align: top;
     border-radius: 30px;
-    background: var(--color-9, #fae2da);
+    background-color: rgb(250, 226, 218, 0.7);
+    margin-bottom: 80px;
 }
 
 .footer-logo p {
