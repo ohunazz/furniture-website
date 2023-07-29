@@ -28,6 +28,12 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
 :root {
     --black-color: #1d263a;
     --prime-color: #fae2dab3;
