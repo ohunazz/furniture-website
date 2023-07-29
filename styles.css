@@ -1,6 +1,6 @@
 /* Header */
 
-.header {
+#header {
     height: 110px;
 }
 
@@ -40,11 +40,6 @@
 }
 
 /* Hero-Section */
-
-.hero-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 
 .hero-section {
     position: relative;
@@ -121,11 +116,6 @@ span {
 
 /* Features-Section */
 
-.features-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 .features-section {
     padding: 100px 152px 80px;
 }
@@ -200,11 +190,6 @@ span {
     margin-bottom: 10px;
 }
 /* Product-Section */
-
-.product-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 
 .product-section {
     padding: 102px 152px;
@@ -300,11 +285,6 @@ span {
 
 /* Process-Section */
 
-.process-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 .process-section {
     padding: 102px 152px;
     position: relative;
@@ -379,11 +359,6 @@ span {
 
 /* Explore-Section */
 
-.explore-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 .explore-section {
     padding: 102px 152px;
     position: relative;
@@ -448,15 +423,11 @@ span {
 
 /* Review Section */
 
-.review-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 .review-section {
     position: relative;
     margin-bottom: 115px;
     margin-top: 95px;
+    padding-bottom: 105px;
 }
 
 .review-section_left {
@@ -542,11 +513,6 @@ span {
 
 /* Subscribe Section */
 
-.subscribe-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 .subscribe-section h4 {
     color: var(--black-color);
     text-align: center;
@@ -609,18 +575,14 @@ span {
 
 /* Footer Section */
 
-.footer-section_container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 .footer-section {
-    width: 1600px;
     padding: 102px 61px 63px;
-    display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top; */
     border-radius: 30px;
     background-color: var(--prime-color);
+    margin-bottom: 200px;
+}
+#footer-section {
     margin-bottom: 80px;
 }
 
