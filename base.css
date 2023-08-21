@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "MazzardL", sans-serif;
 }
@@ -29,7 +33,7 @@ a {
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 160rem;
     margin: 0 auto;
     font-size: 0;
 }
