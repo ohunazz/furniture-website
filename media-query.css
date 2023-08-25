@@ -1,2 +1,40 @@
 @media (max-width: 400px) {
+    .nav_links,
+    .nav_btn {
+        display: none;
+    }
+
+    .navigation {
+        padding: 3.1rem 2.8rem;
+    }
+
+    #hero-section {
+        padding: 0 1.4rem;
+    }
+
+    .hero-section_right,
+    .hero-section_left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-section {
+        padding: 6rem 6rem;
+    }
+    .hero-section_left {
+        margin-bottom: 3.6rem;
+    }
+
+    .circle-shape {
+        width: 17.3rem;
+        height: 17.3rem;
+        margin-left: 0px;
+        left: 9rem;
+        top: 4rem;
+    }
+
+    .hero-img {
+        width: 24rem;
+        height: 29rem;
+    }
 }
