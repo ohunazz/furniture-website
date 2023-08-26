@@ -161,4 +161,35 @@
     .second-lane {
         margin-bottom: 7rem;
     }
+
+    .explore-section {
+        padding: 3rem 3rem;
+        display: block;
+    }
+
+    .couple {
+        width: 100%;
+        height: auto;
+        margin-bottom: 8rem;
+    }
+
+    .explore-section_right,
+    .explore-section_left {
+        display: block;
+    }
+
+    .explore-section_right {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .explore-shape {
+        width: 15rem;
+        left: 14rem;
+        bottom: 35rem;
+    }
+
+    .explore-section_right p {
+    }
 }
