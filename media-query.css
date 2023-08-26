@@ -42,16 +42,22 @@
         font-size: 1.3rem;
         letter-spacing: 0.3rem;
         font-weight: 400;
+        text-align: center;
     }
 
     .hero-section_right h1 {
         font-size: 36px;
         font-weight: 600;
         letter-spacing: -1px;
+        text-align: center;
     }
 
     .hero-section_right span {
         letter-spacing: 0.2rem;
+    }
+
+    .p-text {
+        text-align: center;
     }
 
     .line {
@@ -79,5 +85,41 @@
 
     .feature-icon {
         margin-left: 13rem;
+    }
+
+    .product-section {
+        padding: 3rem 3rem;
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .product-img:first-child {
+        display: none;
+    }
+
+    .product-img:nth-child(2) {
+        display: none;
+    }
+
+    .product-heading {
+        text-align: center;
+        margin-left: 4.5rem;
+        width: 73%;
+    }
+
+    .product-img {
+        width: 100%;
+    }
+
+    .price {
+        width: 28rem;
+        padding: 2.5rem;
+        right: 2.5rem;
+    }
+
+    .price p {
+        margin-right: 7rem;
     }
 }
