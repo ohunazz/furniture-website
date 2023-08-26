@@ -122,4 +122,43 @@
     .price p {
         margin-right: 7rem;
     }
+
+    .process-section {
+        padding: 3rem 3rem;
+    }
+
+    .process-section h3 {
+        margin-bottom: 4rem;
+        /* text-align: center; */
+    }
+
+    .process-section h4 {
+        display: block;
+    }
+
+    .process-section h4 {
+        margin-left: 0;
+        margin-bottom: 1.6rem;
+    }
+
+    .process-section span {
+        position: relative;
+        bottom: 1.6rem;
+    }
+
+    .process-section p {
+        position: relative;
+        width: 100%;
+        margin-bottom: 1.6rem;
+    }
+
+    .process-section a {
+        position: relative;
+        left: 2rem;
+    }
+
+    .first-lane,
+    .second-lane {
+        margin-bottom: 7rem;
+    }
 }
