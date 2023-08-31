@@ -222,7 +222,7 @@ span {
 .product-img {
     display: inline-block;
     height: 68rem;
-    width: 32%;
+    width: 32.3%;
 }
 
 .product-img img:not(.price img) {
@@ -522,15 +522,17 @@ span {
     margin-bottom: 3.4rem;
 }
 
-.subscribe-section p {
+.subscribe-text {
     color: var(--black-color);
     text-align: center;
+    margin-left: 53rem;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: 3rem;
     opacity: 0.7;
     margin-bottom: 5.7rem;
+    width: 50rem;
 }
 
 .subscribe-section #email {
@@ -559,6 +561,18 @@ span {
     margin-top: 3.3rem;
     margin-left: 68rem;
     margin-bottom: 12.5rem;
+}
+
+.lock p {
+    color: var(--black-color);
+    text-align: center;
+
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 5.7rem;
 }
 
 .lock img,
