@@ -550,6 +550,7 @@ span {
     border-radius: 0 1rem 1rem 0;
     background: var(--green-color);
     border: none;
+    font-size: 1.7rem;
     margin-left: -0.5rem;
     border-color: #dfdfdf;
     height: 7rem;
